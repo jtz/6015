@@ -49,5 +49,5 @@ jobs:
       with:
         app-name: 'jingtian6015'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_abf65bc2cd674c2591577ff684ed655d }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4631975ff31f44a9a3a749231320eb42 }}
         package: '*.jar'
