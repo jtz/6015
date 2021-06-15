@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Part 2 – AJAX and JSON</title>
+    <title>AJAX and JSON</title>
     <style>
         body {
             background-image: linear-gradient(60deg, #f5c2e8, #6aafe7 );
@@ -12,9 +12,10 @@
             background-size: cover;
             font-family: Verdana, Arial, sans-serif;
             font-size: 100%;
+            text-align: center;
         }
-        .button-container {
-            margin-top: 100px;
+        .container {
+            margin-top: 18%;
         }
         button {
             font-size: 1.5em;
@@ -26,19 +27,38 @@
             padding: 15px 100px;
             transition-duration: 0.4s;
             cursor: pointer;
-            display: block;
-            margin: 0 auto;
         }
         button:hover {
             color: #9c8fd6;
             background-color: #fcfbfe;
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         }
+        table {
+            border: 1px;
+            margin: 0 auto;
+            display: none;
+            cursor: cell;
+        }
+        th, td {
+            padding: 20px;
+            text-align: left;
+        }
+        th {
+            background-color: #9c8fd6;
+            color: white;
+        }
+        tr {
+            background-color: #d8d2f7;
+        }
+        tr:hover {
+            background-color: #fcfbfe;
+        }
     </style>
 </head>
 <body>
-    <div class="button-container">
+    <div class="container">
         <button id="button">Click Me To Get My College Degrees</button>
+        <table id="table"></table>
     </div>
     <script src="requestJson.js"></script>
 </body>
