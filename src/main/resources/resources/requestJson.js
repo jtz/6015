@@ -7,7 +7,7 @@ button.onclick = function() { getDegrees()};
 const getDegrees = () => {
 
     // const httpURL = 'http://localhost:8080/getjson';
-    const httpURL = 'https://jingtian6015.azurewebsites.net/getjson';
+    const httpURL = 'https://jingtiantest.azurewebsites.net/getjson';
 
     // ii. Create a XMLHttpRequest object
     const httpRequest = new XMLHttpRequest();
